@@ -24,7 +24,7 @@ body {
     color: #fff;
 }
 
-.content {
+.content-box-car {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -38,11 +38,11 @@ body {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.car-list {
+.box-car {
     padding: 50px;
 }
 
-.rental-car {
+.container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;

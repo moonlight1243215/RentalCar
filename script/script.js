@@ -1,6 +1,6 @@
 const car = [
     {
-      carPhoto: "photo/lamborghini.png",
+      carPhoto: "assets/photo/lamborghini.png",
       carMake: "Lamborghini",
       carModel: "Aventador Roadster",
       carProdYear: 2016,
@@ -10,7 +10,7 @@ const car = [
       drive: "4x4",
     },
     {
-      carPhoto: "photo/nissan.png",
+      carPhoto: "assets/photo/nissan.png",
       carMake: "Nissan",
       carModel: "GT-R",
       carProdYear: 2014,
@@ -20,7 +20,7 @@ const car = [
       drive: "4x4",
     },
     {
-      carPhoto: "photo/bmw.png",
+      carPhoto: "assets/photo/bmw.png",
       carMake: "BMW",
       carModel: "M8 Manhart",
       carProdYear: 2020,
@@ -31,14 +31,14 @@ const car = [
     },
   ];
   
-  const main = document.getElementById("rental-car");
+  const main = document.getElementById("container");
 
-  const carItem = car.map(item => {
+  const carItem = car.forEach(item => {
     const createLi = document.createElement("div");
-    createLi.className = "car-list";
+    createLi.className = "box-car";
 
     const contentLi = document.createElement("div")
-    contentLi.className = "content"
+    contentLi.className = "content-box-car"
 
     contentLi.innerHTML = `
     <img src="${item.carPhoto}" width="400px" height="225px" class="car"/>
