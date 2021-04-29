@@ -41,7 +41,7 @@ const car = [
     contentLi.className = "content-box-car"
 
     contentLi.innerHTML = `
-    <img src="${item.carPhoto}" width="400px" height="225px" class="car"/>
+    <img src="${item.carPhoto}" width="400px" height="225px" class="car-photo"/>
     <p class="text">Marka: ${item.carMake}</p>
     <p class="text">Model: ${item.carModel}</p>
     <p class="text">Rok produkcji: ${item.carProdYear}</p>
